@@ -11,17 +11,26 @@
         <section class="game-section">
             <div class="game-container">
                 <img src="imagens/tigrinho.png" alt="">
-                <h1>Jogo de Click</h1>
-                <p>Bem-vindo ao jogo de click! Clique no botão abaixo para começar.</p>
+                <h1>Jogo de Clique</h1>
+                <p>Bem-vindo ao jogo de clique! Clique no botão abaixo para começar.</p>
                 <div class="contagem">
                     <p>Contagem de cliques <br> <span id="click_count">0</span> </p>
                 </div>
-                <button id="clickButton" onclick="add(1)">Clique aqui!</button>
+                <button id="clickButton" onclick="add()">Clique aqui!</button>
             </div>
             <div class="upgrade-container">
+                <div>
                 <button class="button-10 " onclick="sub(10)">Upgrade -10pts</button>
+                <p>Bônus de 2 pontos</p>
+                </div>
+                <div>
                 <button class="button-50" onclick="sub(50)">Upgrade -50pts</button>
+                <p>Bônus de 8 pontos</p>
+                </div>
+                <div>
                 <button class="button-100" onclick="sub(100)">Upgrade -100pts</button>
+                <p>Bônus de 32 pontos</p>
+                </div>
             </div>
         </section>
     </main>
